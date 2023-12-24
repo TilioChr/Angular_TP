@@ -9,7 +9,6 @@ import {
   buildEditUserForm,
   formatDateFromInput,
 } from 'src/app/utils/form.utils';
-import { faHouseUser } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-user-form',
