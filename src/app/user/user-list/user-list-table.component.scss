@@ -17,6 +17,14 @@
     }
 }
 
+.filter-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
 .table-wrapper::-webkit-scrollbar{
     width: 0px;
 }
@@ -37,14 +45,6 @@
         &:active {
             box-shadow: inset 0px 1px 1px black;
         }
-    }
-
-    .filter-wrapper {
-        display: flex;
-        flex-direction: row;
-        gap: 10px;
-        margin-bottom: 10px;
-        margin-top: 10px;
     }
     
     .details-button {
