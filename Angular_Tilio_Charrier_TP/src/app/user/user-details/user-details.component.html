@@ -1,0 +1,14 @@
+<div class="container" *ngIf="user">
+  <h1>DETAILS</h1>
+  <h2>{{ user.firstName }} {{ user.lastName }}</h2>
+  <div class="detailItem">Emploi : {{ user.occupation }}</div>
+  <div class="detailItem">Email : {{ user.email }}</div>
+  <div class="detailItem">
+    Date de naissance : {{ user.birthDate.day }} {{ user.birthDate.monthLong }}
+    {{ user.birthDate.year }}
+  </div>
+  <div class="detailItem">Bio : {{ user.bio }}</div>
+  <button mat-raised-button color="warn" (click)="navigateToHome()">
+    Retour
+  </button>
+</div>

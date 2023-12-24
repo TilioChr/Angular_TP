@@ -1,0 +1,35 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+html {
+    background-color: white;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+//--- Title ---//
+h1 {
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+//--- Back/Home Button ---//
+.home-btn {
+    background-color: white;
+    border: none;
+    font-size: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.home-btn:hover {
+    background-color: rgb(235, 235, 235);
+}

@@ -1,0 +1,76 @@
+.table-wrapper {
+    border-radius: 12px;
+    table {
+        .header-row {
+            background-color: rgb(119, 119, 119);
+            font-weight: bold;
+            position: sticky;
+            top: 0;
+            font-size: 16px;
+            color: black;
+            top: 0;
+
+        }
+        .content-row:nth-child(odd) {
+            background-color: rgb(230, 230, 230);
+        }
+    }
+}
+
+.table-wrapper::-webkit-scrollbar{
+    width: 0px;
+}
+ 
+.actions-cell {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+    button {
+        padding: 5px;
+        width: 100%;
+        color: white;
+        border: solid 0px black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        cursor: pointer;
+        &:active {
+            box-shadow: inset 0px 1px 1px black;
+        }
+    }
+
+    .filter-wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+    .details-button {
+        background-color: grey;
+        border-radius: 4px 4px 0px 0px;
+
+        &:hover {
+            background-color: rgb(100, 100, 100);
+        }
+    }
+    
+    .delete-button {
+        background-color: red;
+        border-radius: 0px 0px 4px 4px;
+
+        &:hover {
+            background-color: rgb(180, 0, 0);
+        }
+    }
+    
+    .edit-button {
+        background-color: grey;
+        border-top: solid 1px black;
+
+        &:hover {
+            background-color: rgb(100, 100, 100);
+        }
+    }
+}
